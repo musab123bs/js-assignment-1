@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+           //     3)  Write a JavaScript program that accepts five numbers in five prompts and
+        // displays the larger one in the console.
+
+
+       var arr1 = [];
+        for (i = 1; i <= 5; i++) {
+            x1 = prompt(`Number ${i}:`);
+            arr1.push(x1);
+            var greatestNumber = Math.max(...arr1);
+        }
+        document.write('The Greatest Number is ' + greatestNumber);
+    </script>
+</body>
+</html>
